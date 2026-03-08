@@ -1,0 +1,72 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- 排除参考文件夹下的所有 .cs 不参与编译 -->
+    <Compile Remove="参考\**\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\Illgames\Aicomi\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\Illgames\Aicomi\BepInEx\interop-Aicomi\interop\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Core">
+      <HintPath>..\Illgames\Aicomi\BepInEx\core\BepInEx.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.KeyboardShortcut">
+      <HintPath>..\Illgames\Aicomi\BepInEx\plugins\ConfigurationManager\BepInEx.KeyboardShortcut.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Unity.Common">
+      <HintPath>..\Illgames\Aicomi\BepInEx\core\BepInEx.Unity.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP">
+      <HintPath>..\Illgames\Aicomi\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigurationManager">
+      <HintPath>..\Illgames\Aicomi\BepInEx\plugins\ConfigurationManager\ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\Illgames\Aicomi\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>..\Illgames\Aicomi\BepInEx\interop-Aicomi\interop\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Configuration">
+      <HintPath>..\dc\DigitalCraft\BepInEx\interop\Il2CppSystem.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\Illgames\Aicomi\BepInEx\interop-Aicomi\interop\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\Illgames\Aicomi\BepInEx\interop-Aicomi\interop\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Illgames\Aicomi\BepInEx\interop-Aicomi\interop\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\Illgames\Aicomi\BepInEx\interop-Aicomi\interop\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\Illgames\Aicomi\BepInEx\interop-Aicomi\interop\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>..\Illgames\Aicomi\BepInEx\interop-Aicomi\interop\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\dc\DigitalCraft\BepInEx\interop\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\Illgames\Aicomi\BepInEx\interop-Aicomi\interop\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\Illgames\Aicomi\BepInEx\interop-Aicomi\interop\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
+
