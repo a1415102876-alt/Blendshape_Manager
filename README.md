@@ -1,6 +1,6 @@
 # Blendshape Manager
 
-一个基于 BepInEx 的 Unity 插件，用来查看、手动调整和管理角色的形态键。  
+一个基于 BepInEx 的 Unity 插件，用来查看、手动调整和管理角色的形态键以创建更多自定义表情。  
 理论上同时适配Aicomi、Samabake和Honeycome
 
 A Unity Plugin based on BepInEx, for checking, adjusting and managing Blendshapes on Characters to make more customized expressions.
@@ -36,5 +36,6 @@ Theoretically supporting Aicomi Samabake and Honeycome
 3. Extract it into the game root folder(.dll file should be in Plugins folder)
 
 ---
+
 
 
