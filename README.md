@@ -20,7 +20,7 @@ Theoretically supporting Aicomi Samabake and Honeycome
 2. 启用接管表情控制
 3. 调整下方各形态键的数值
 4. 下方输入预设名字点击保存预设
-
+---
 1. Press the hotkey to open the plugin UI (F8 by default).
 2. Enable “Take over facial control”.
 3. Adjust the values of the blendshapes listed below.
@@ -30,10 +30,11 @@ Theoretically supporting Aicomi Samabake and Honeycome
 1. 确保安装前置
 2. 从releases栏下载插件
 3. 解压到游戏根目录（.dll文件应该在Plugins文件夹内）
-
+---
 1. Make sure that you have downloaded the prerequisites.
 2. Download the plugin from releases
 3. Extract it into the game root folder(.dll file should be in Plugins folder)
 
 ---
+
 
