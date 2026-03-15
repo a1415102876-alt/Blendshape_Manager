@@ -16,14 +16,14 @@ Theoretically supporting Aicomi Samabake and Honeycome
 ---
 ## 使用方法(How to use)
 
-1. 点击快捷键打开插件UI（默认F8）
-2. 启用接管表情控制（如果角色还在自己眨眼就点一下刷新）
+1. 点击快捷键打开插件UI（游戏本体版本快捷键默认F8，工作室版默认为B）
+2. 启用接管表情控制（如果角色还在自己眨眼或者提示角色没有Blendshape就点一下刷新）
 3. 调整下方各形态键的数值
 4. 下方输入预设名字点击保存预设
 5. 点击F1打开ConfigurationManager可以调整快捷键设置以及语言选项
 ---
 1. Press the hotkey to open the plugin UI (F8 by default).
-2. Enable “Take over facial control”.（If the character is still blinking, press the refresh)
+2. Enable “Take over facial control”.（If the character is still blinking or showing current character has no blendshapes, press the refresh)
 3. Adjust the values of the blendshapes listed below.
 4. Enter a preset name at the bottom and click “Save preset”.
 5. You can change the hotkeys and language by pressing F1 to open ConfigurationManager
